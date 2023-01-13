@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+:root {
+  --dark-cyan: #3c8067;
+  --cream: #f2ebe3;
+  --very-dark-blue: #1c232b;
+  --dark-grayish-blue: #6c7289;
+  --white: #ffffff;
+  --button-active: #184131;
+}
+body {
+  margin: 0 auto;
+  background-color: var(--cream);
+}
+.card {
+  margin: 30px 15px;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.product__info {
+  padding: 25px;
+  text-align: left;
+}
+.product__type {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: var(--dark-grayish-blue);
+}
+.product__name {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  line-height: 35px;
+  margin: 15px 0px;
+  color: var(--very-dark-blue);
+}
+.product__description {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--dark-grayish-blue);
+}
+.product__price {
+  display: flex;
+  align-items: center;
+  margin: 15px 0px;
+}
+.product__current-price {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  color: var(--dark-cyan);
+  font-size: 28px;
+  padding-right: 20px;
+}
+.product__original-price {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: line-through;
+  color: var(--dark-grayish-blue);
+}
+.atc-button {
+  background-color: var(--dark-cyan);
+  color: var(--white);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  width: 100%;
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.atc-button img {
+  padding-right: 10px;
+}
+.atc-button:hover {
+  background-color: var(--button-active);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: #3e52a3;
+}
+
+@media only screen and (min-width: 600px) {
+  main {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card {
+    display: flex;
+    max-width: 600px;
+    max-height: 450px;
+    margin: 175px auto;
+  }
+  .product {
+    display: flex;
+  }
+  .product__image {
+    width: 50%;
+  }
+  .product__image img {
+    width: 100%;
+  }
+  .product__info {
+    width: 50%;
+    padding: 30px;
+  }
+  .product__price {
+    margin: 25px 0px;
+  }
+}
