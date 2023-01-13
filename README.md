@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My Solution](https://your-solution-url.com)
+- Solution URL: [My Solution](https://www.frontendmentor.io/solutions/product-preview-card-component-45u1tuH21n)
 - Live Site URL: [Github Pages](https://delanohendrix.github.io/Product-Preview-Card-Component/)
 
 ## My process
