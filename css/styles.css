@@ -86,6 +86,9 @@ body {
 .atc-button:hover {
   background-color: var(--button-active);
 }
+.atc-button:focus {
+  background-color: var(--button-active);
+}
 .attribution {
   font-size: 11px;
   text-align: center;
